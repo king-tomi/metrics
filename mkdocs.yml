@@ -1,0 +1,12 @@
+site_name: Metrics Docs
+
+theme:
+  name: "material"
+
+plugins:
+  - mkdocstrings
+
+nav:
+  - index.md
+  - explanation.md
+  - references.md
