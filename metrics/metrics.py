@@ -271,7 +271,7 @@ def pfp(Tsip: int, Tmcp: int) -> int:
     """
     return Tsip - Tmcp
 
-def uv(Npv: int, Nppv) -> float:
+def uv(Npv: int, Nppv: int) -> float:
     """
     Measures how well the solution space is utilized by customers
 
@@ -279,7 +279,7 @@ def uv(Npv: int, Nppv) -> float:
 
         Npv -> int: Number of perceived variants
 
-        Nppv: Number of all possible variants
+        Nppv -> int: Number of all possible variants
 
     returns:
         The rate of space solution utilization
